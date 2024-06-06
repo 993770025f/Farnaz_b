@@ -1,0 +1,13 @@
+def inputList():
+    list=[]
+    for i in range(5):
+      L=int(input("voroodi"))
+      list.append(L)
+    print(list)
+    return list
+def max_min(tr):
+    tr.sort()
+    
+    print ((tr[-1] , tr[0]))
+A=inputList()
+max_min(A)
